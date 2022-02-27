@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.title {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.tools_item {
+  width: 218px;
+  min-height: 366px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tools_img {
+  width: 218px;
+  height: 210px;
+}
+
+.tools_name {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tools_price {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tools_button {
+  background-color: inherit;
+  border: 1px solid #23bac1;
+  color: #23bac1;
+  padding: 23px 74px;
+  text-transform: uppercase;
+  font-family: "Proxima Nova";
+}
