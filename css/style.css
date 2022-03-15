@@ -15,6 +15,13 @@ body {
   text-align: center;
 }
 
+.tools_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .tools_item {
   width: 218px;
   min-height: 366px;
