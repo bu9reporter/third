@@ -15,11 +15,18 @@ body {
   text-align: center;
 }
 
-.tools_list {
+.tools_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tools_raw {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  padding-bottom: 64px;
 }
 
 .tools_item {
@@ -57,4 +64,10 @@ body {
   padding: 23px 74px;
   text-transform: uppercase;
   font-family: "Proxima Nova";
+}
+
+.tools_button:hover {
+  background-color: #23bac1;
+  color: #ffffff;
+  transition: 0.3s;
 }
