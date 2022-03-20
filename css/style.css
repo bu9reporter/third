@@ -15,22 +15,16 @@ body {
   text-align: center;
 }
 
-.tools_column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 .tools_raw {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 64px;
+  align-content: space-between;
+  min-height: 800px;
 }
 
 .tools_item {
-  width: 218px;
+  width: 25%;
   min-height: 366px;
   flex-direction: column;
   display: flex;
